@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+    <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:src="@drawable/qubell_logo"
+            android:contentDescription="Qubell logo"
+            android:layout_weight="1"
+            android:scaleType="center"
+            />
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/availability_msg"
+            android:gravity="center"
+            android:layout_weight="0"
+            />
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/updating_msg"
+            android:textColor="@color/updatingColor"
+            android:textSize="50sp"
+            android:gravity="center"
+            android:layout_weight="0"
+            android:id="@+id/availability_label"
+            />
+    <View
+            android:layout_height="0sp"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            />
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/disclaimer"
+            android:gravity="center"
+            android:layout_weight="0"
+            android:textSize="12sp"
+            />
+</LinearLayout>
+

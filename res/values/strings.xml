@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Qubell Status</string>
+    <string name="availability_msg">Current express agent availability is</string>
+    <string name="refresh_action">Refresh</string>
+    <string name="disclaimer">This is unofficial application</string>
+
+    <string name="failed_update_msg">unknown</string>
+    <string name="updating_msg">updating&#8230;</string>
+
+    <color name="errorColor">#FF0000</color>
+    <color name="waringColor">#FFFF00</color>
+    <color name="okColor">#00FF00</color>
+    <color name="failedColor">#BBBBBB</color>
+    <color name="updatingColor">#BBBBBB</color>
+</resources>
